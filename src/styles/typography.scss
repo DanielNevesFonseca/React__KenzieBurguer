@@ -1,0 +1,41 @@
+.title1, .title2, .title3 {
+  font-weight: 700;
+  color: var(--color-black)
+}
+
+.title1{
+  font-size: 1.625rem;
+}
+
+.title2 {
+  font-size: 1.375rem;
+}
+
+.title3{
+  font-size: 1.125rem;
+}
+
+.headlineText, .bodyText, .captionText{
+  color: var(--color-gray-4);
+  font-weight: 400;
+
+  &.bold{
+    font-weight: 600;
+  }
+}
+
+.headlineText{
+  font-size: 1rem;
+}
+
+.bodyText{
+  font-size: 0.875rem;
+}
+
+.captionText{
+  font-size: 0.75rem;
+}
+
+.greenText{
+  color: var(--color-primary);
+}

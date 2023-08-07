@@ -1,0 +1,80 @@
+.modalController {
+  position: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100vh;
+  background-color: (rgba(0, 0, 0, 0.498));
+  backdrop-filter: blur(5px);
+}
+
+.modalContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 12px;
+  background-color: var(--color-white);
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.emptyCartMessage {
+  text-align: center;
+  color: var(--color-gray-3);
+}
+
+.headerModalBox {
+  position: relative;
+  background-color: var(--color-primary);
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &>h2 {
+    color: var(--color-white);
+  }
+}
+
+.renderProductsBox,
+.totalValueBox {
+  margin: 0 15px;
+}
+
+.renderProductsBox {
+  max-width: 100%;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.totalValueBox {
+  border-top: 1px solid var(--color-gray-2);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 0;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    padding: 12px 18px;
+    background-color: var(--color-gray-2);
+    font-size: 1rem;
+    color: var(--color-gray-3);
+    font-weight: 600;
+  }
+}

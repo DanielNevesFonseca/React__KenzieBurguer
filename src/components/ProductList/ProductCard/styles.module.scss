@@ -1,0 +1,31 @@
+.productItem {
+  border: 1px solid var(--color-gray-2);
+  width: 231px;
+  min-width: 231px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    height: 45%;
+    background-color: var(--color-gray-1);
+    object-fit: contain;
+
+  }
+  &:hover {
+    border-color: var(--color-primary);
+    scale: 1.01;
+    transition: all ease-in-out 0.2s;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+
+    button {
+      width: max-content;
+    }
+  }
+}

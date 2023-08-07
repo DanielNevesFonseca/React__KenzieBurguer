@@ -1,0 +1,9 @@
+.mainContent {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+
+  @media (min-width:1024px) {
+    justify-content: center;
+  }
+}

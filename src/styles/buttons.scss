@@ -1,0 +1,19 @@
+button {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;  
+}
+
+.greenButton{
+  background-color: var(--color-primary);
+  color: var(--color-white);
+
+  &.mediumButton{
+    padding: 8px 20px;
+  }
+
+  &.smallButton{
+    padding: 4px 12px;
+  }
+}
+
